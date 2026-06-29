@@ -1,5 +1,6 @@
 # Calculator App — SEN 104 & SEN 214 Assignment
-
+🤖 Android App Download:
+https://expo.dev/artifacts/eas/L8C-ZJkUQ_8lb8AYAcd6uHRDztq4h5TVmZimd5dyMjM.aab
 ## Overview
 A mobile calculator app built with React Native (Expo) that supports basic arithmetic
 and scientific/advanced operations for bonus marks.

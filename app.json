@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ScientificCalc",
-    "slug": "scientific-calc",
+    "slug": "tiwaloluwa",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
@@ -16,7 +16,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.student.scientificcalc"
+      "bundleIdentifier": "com.student.scientificcalc",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.student.scientificcalc",
@@ -31,6 +34,12 @@
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ada3e9cf-fc0c-47b4-a022-c517d9fe059d"
+      }
+    },
+    "owner": "tiwaloluwa002steam"
   }
 }
