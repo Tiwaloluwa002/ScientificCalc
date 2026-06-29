@@ -1,4 +1,4 @@
-# Calculator App PRD — SEN 104 & SEN 214 Assignment
+# Calculator App — SEN 104 & SEN 214 Assignment
 
 ## Overview
 A mobile calculator app built with React Native (Expo) that supports basic arithmetic
@@ -64,27 +64,7 @@ npx expo start -c
 - Android: open the Expo Go app and scan the QR code, or press `a` in the dev server to open an emulator.
 - iOS: scan the QR code with the Camera app (physical device) or press `i` to open the iOS simulator (macOS only).
 
----
+ - iOS: scan the QR code with the Camera app (physical device) or press `i` to open the iOS simulator (macOS only).
 
-## Submitting your GitHub link
+this is the updated readme
 
-1. Commit the README changes locally:
-
-```bash
-git add README.md
-git commit -m "Update README: PRD and submission instructions"
-```
-
-2. Push to your repository (replace `origin`/`main` if your remote uses different names):
-
-```bash
-git push origin main
-```
-
-3. Copy your GitHub repository URL (e.g. https://github.com/your-username/your-repo) and submit that link to your lecturer.
-
-If your repository is a private remote or requires authentication, make sure you're signed in to GitHub in your terminal or set up an SSH key beforehand.
-
----
-
-If you'd like, I can commit and push this change for you now — would you like me to do that?
