@@ -64,7 +64,38 @@ npx expo start -c
 - Android: open the Expo Go app and scan the QR code, or press `a` in the dev server to open an emulator.
 - iOS: scan the QR code with the Camera app (physical device) or press `i` to open the iOS simulator (macOS only).
 
- - iOS: scan the QR code with the Camera app (physical device) or press `i` to open the iOS simulator (macOS only).
+---
 
-this is the updated readme
+## Building an APK for Android
 
+To get a downloadable APK file for installation on Android devices:
+
+### Prerequisites
+- Expo CLI installed: `npm install -g expo-cli`
+- An Expo account (free at https://expo.dev)
+
+### Build using EAS Build
+
+1. **Log in to Expo:**
+   ```bash
+   npx eas login
+   ```
+
+2. **Build the Android APK:**
+   ```bash
+   npx eas build --platform android --local
+   ```
+   Or use the cloud build (recommended):
+   ```bash
+   npx eas build --platform android
+   ```
+
+3. **Get the download link:**
+   Once the build completes, EAS will provide a download link to the `.apk` file. You can also check your build status on the [Expo Dashboard](https://expo.dev/dashboard).
+
+4. **Install on Android device:**
+   - Download the APK from the link provided
+   - Transfer to your Android device and tap to install, OR
+   - Use ADB (Android Debug Bridge): `adb install path/to/app.apk`
+
+For more info on EAS Build, see the [Expo EAS Build documentation](https://docs.expo.dev/build/setup/).
